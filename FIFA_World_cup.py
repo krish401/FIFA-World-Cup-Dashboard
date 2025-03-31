@@ -38,6 +38,8 @@ win_counts.columns = ['Country', 'Wins']
 
 app = dash.Dash(__name__)
 
+server=app.server
+
 app.title = "FIFA World Cup Dashboard"
 
 
